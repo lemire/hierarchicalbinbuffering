@@ -1,0 +1,126 @@
+ Benchmarking tool for the Ola algorithm 
+ Build: Jul 12 2004 12:07:48
+ Times are user; ensure no significant system times
+ Benchmarks can take a long time to compute 
+ Values are always given as pairs init time + total operation time 
+Starting benchmarking from hellifax 
+testing effects of varying b
+ size = 1073741825 b=32,beta=5
+ external array is : 4 GB
+ bin arrays are : 0.125 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 1073741825 N = 2 b = 32
+ b = 32 N = 2
+ data.size() = 1073741825
+ It took 1452.81 s to build a buffer of size 33554433
+ [frs] Computations took 5.56
+ For 2000 range sums 
+ average was -0.0366127
+1452.81,5.56
+ size = 1073741825 b=128,beta=4
+ external array is : 4 GB
+ bin arrays are : 0.5 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 1073741825 N = 2 b = 128
+ b = 128 N = 2
+ data.size() = 1073741825
+ It took 1461.92 s to build a buffer of size 8388609
+ [frs] Computations took 12.09
+ For 2000 range sums 
+ average was -0.037178
+1461.92,12.09
+ size = 1073741825 b=1024,beta=2
+ external array is : 4 GB
+ bin arrays are : 4 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 1073741825 N = 2 b = 1024
+ b = 1024 N = 2
+ data.size() = 1073741825
+ It took 1465.06 s to build a buffer of size 1048577
+ [frs] Computations took 48.75
+ For 2000 range sums 
+ average was -0.0369018
+1465.06,48.75
+ size = 1073741825 b=32768,beta=1
+ external array is : 4 GB
+ bin arrays are : 128 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 1073741825 N = 2 b = 32768
+ b = 32768 N = 2
+ data.size() = 1073741825
+ It took 1465.66 s to build a buffer of size 32769
+ [frs] Computations took 594.56
+ For 1525 range sums 
+ average was -0.0661622
+1465.66,594.56
+ size = 1073741825 b=1048576,beta=1
+ external array is : 4 GB
+ bin arrays are : 4096 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 1073741825 N = 2 b = 1048576
+ b = 1048576 N = 2
+ data.size() = 1073741825
+ It took 1536.59 s to build a buffer of size 1025
+ [frs] Computations took 613.28
+ For 47 range sums 
+ average was -0.087218
+1536.59,613.28
+testing effects of varying N
+ size = 1073741825 b=128,beta=4
+ external array is : 4 GB
+ bin arrays are : 0.5 KB
+N (aka M and M' in paper) is 1
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 1073741825 N = 1 b = 128
+ b = 128 N = 1
+ data.size() = 1073741825
+ It took 950.84 s to build a buffer of size 8388609
+ [frs] Computations took 5.22
+ For 2000 range sums 
+ average was -0.0368086
+950.84,5.22
+ size = 1073741825 b=128,beta=4
+ external array is : 4 GB
+ bin arrays are : 0.5 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 1073741825 N = 2 b = 128
+ b = 128 N = 2
+ data.size() = 1073741825
+ It took 1460.73 s to build a buffer of size 8388609
+ [frs] Computations took 12.95
+ For 2000 range sums 
+ average was -0.037178
+1460.73,12.95
+ size = 1073741825 b=128,beta=3
+ external array is : 4 GB
+ bin arrays are : 0.5 KB
+N (aka M and M' in paper) is 4
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 1073741825 N = 4 b = 128
+ b = 128 N = 4
+ data.size() = 1073741825
+ It took 2496.55 s to build a buffer of size 8388609
+ [frs] Computations took 24.81
+ For 2000 range sums 
+ average was -0.0364181
+2496.55,24.81
+ size = 1073741825 b=128,beta=3
+ external array is : 4 GB
+ bin arrays are : 0.5 KB
+N (aka M and M' in paper) is 8
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 1073741825 N = 8 b = 128
+ b = 128 N = 8
+ data.size() = 1073741825
+ It took 4541.88 s to build a buffer of size 8388609
+ [frs] Computations took 73.9
+ For 2000 range sums 
+ average was -0.0369382
+4541.88,73.9
+Done with benchmarking from hellifax.

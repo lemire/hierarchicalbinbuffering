@@ -1,0 +1,20 @@
+molasse library
+===============
+
+TODO: Name of this file should be README, must rename.
+
+optimizationoptions: bunch of switches to change the behavior
+	of the library
+
+molasseexception: all exceptions thrown by this library are 
+	supposed to be MolasseException
+
+datacube: stupid but hopefully bug-free implementation of a
+	data cube as just a big array with no fancy features
+
+ramcube: even stupider RAM-only cube (for faster debugging)
+
+chunkeddatacube: meant to be a somewhat more realistic data cube
+
+python_datacube: wrapper class which utilizes the Boost libraries for any Python <-> C++
+	conversions that are needed.

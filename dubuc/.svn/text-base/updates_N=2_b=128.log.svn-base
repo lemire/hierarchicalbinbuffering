@@ -1,0 +1,28 @@
+
+[owen@kaser dubuc]$ !!
+./benchmark
+ Benchmarking tool for the Ola algorithm 
+ Build: Jul  5 2004 22:27:31
+ Benchmarks can take a long time to compute 
+ Values are always given as pairs init time + total operation time 
+Starting benchmarking from hellifax 
+Testing incremental updates with typical N and b
+ size = 1073741825 b=128,beta=4
+ external array is : 4 GB
+ bin arrays are : 0.5 KB
+N (aka M and M' in paper) is 2
+update time for  2000 updates
+ == Updates === virtual array of size 1073741825 N = 2 b = 128
+ It took 2774.95 s to build a buffer of size 8388609
+ beta (number of levels) = 4
+ [update] Computations took 2.51
+ For 2000 range sums 
+update time for  200000 updates
+ == Updates === virtual array of size 1073741825 N = 2 b = 128
+ It took 2758.68 s to build a buffer of size 8388609
+ beta (number of levels) = 4
+ [update] Computations took 61.17
+ For 200000 range sums 
+2774.95,2.51 , 2758.68,61.17
+Done with benchmarking from hellifax.
+[owen@kaser dubuc]$ 

@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/4/trunk/lemurcore
+END
+mm_datacube.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/lemurcore/mm_datacube.cpp
+END
+optimizationoptions.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/lemurcore/optimizationoptions.cpp
+END
+mm_datacube.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/lemurcore/mm_datacube.h
+END
+optimizationoptions.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/lemurcore/optimizationoptions.h
+END
+datacube.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/lemurcore/datacube.cpp
+END
+python_datacube.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/lemurcore/python_datacube.cpp
+END
+chunkeddatacube.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/lemurcore/chunkeddatacube.cpp
+END
+fileutil.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/lemurcore/fileutil.cpp
+END
+datacube.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/5/trunk/lemurcore/datacube.h
+END
+pyrps.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/lemurcore/pyrps.cpp
+END
+python_datacube.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/lemurcore/python_datacube.h
+END
+ramcube.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/lemurcore/ramcube.cpp
+END
+chunkeddatacube.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/5/trunk/lemurcore/chunkeddatacube.h
+END
+fileutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/lemurcore/fileutil.h
+END
+molasseexception.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/lemurcore/molasseexception.cpp
+END
+pyrps.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/5/trunk/lemurcore/pyrps.h
+END
+ramcube.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/5/trunk/lemurcore/ramcube.h
+END
+molasseexception.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/lemurcore/molasseexception.h
+END
+mathutil.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/lemurcore/mathutil.cpp
+END
+mathutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/lemurcore/mathutil.h
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/5/trunk/lemurcore/makefile
+END
+common.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/lemurcore/common.h
+END

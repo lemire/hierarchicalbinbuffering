@@ -1,0 +1,84 @@
+[owen@kaser dubuc]$ ./benchmark
+ Benchmarking tool for the Ola algorithm 
+ Build: Jul  8 2004 13:19:42
+ Times are user; ensure no significant system times
+ Benchmarks can take a long time to compute 
+ Values are always given as pairs init time + total operation time 
+Starting benchmarking from hellifax 
+Testing multilevel Ola on external array (multi-level)  *** FALSE: NOT EXTERN *
+Trying various b values
+ size = 268435457 b=32,beta=5
+ external array is : 1 GB
+ bin arrays are : 0.125 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 32
+ b = 32 N = 2
+ data.size() = 268435457
+ It took 686.76 s to build a buffer of size 8388609
+ [frs] Computations took 6.6
+ For 2000 range sums 
+ average was -0.0376478
+686.76,6.6
+ size = 268435457 b=128,beta=3
+ external array is : 1 GB
+ bin arrays are : 0.5 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 128
+ b = 128 N = 2
+ data.size() = 268435457
+ It took 687.34 s to build a buffer of size 2097153
+ [frs] Computations took 13.54
+ For 2000 range sums 
+ average was -0.0376223
+687.34,13.54
+ size = 268435457 b=1024,beta=2
+ external array is : 1 GB
+ bin arrays are : 4 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 1024
+ b = 1024 N = 2
+ data.size() = 268435457
+ It took 685.05 s to build a buffer of size 262145
+ [frs] Computations took 65.83
+ For 2000 range sums 
+ average was -0.0375309
+685.05,65.83
+ size = 268435457 b=32768,beta=1
+ external array is : 1 GB
+ bin arrays are : 128 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 32768
+ b = 32768 N = 2
+ data.size() = 268435457
+ It took 687.66 s to build a buffer of size 8193
+ [frs] Computations took 817.1
+ For 1525 range sums 
+ average was -0.0318184
+687.66,817.1
+ size = 268435457 b=1048576,beta=1
+ external array is : 1 GB
+ bin arrays are : 4096 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 1048576
+ b = 1048576 N = 2
+ data.size() = 268435457
+ It took 691.03 s to build a buffer of size 257
+ [frs] Computations took 804.64
+ For 47 range sums 
+ average was -0.0837608
+691.03,804.64
+Testing obvious no-precomputation algorithm, smaller data
+update time for  20 naive rangesums
+data size is 268435457
+ == Slow Range Sums === virtual array of size 268435457
+ [srs] Computations took 0.000277   **** Note: this is in MegaSeconds!! ***
+ For 20 range sums 
+ average was -0.245651
+0,0.000277
+Done with benchmarking from hellifax.
+[owen@kaser dubuc]$ 

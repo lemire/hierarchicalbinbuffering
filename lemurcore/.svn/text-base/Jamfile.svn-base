@@ -1,0 +1,23 @@
+# This is the root of an independent project
+project-root ;
+
+# Include definitions needed for Python modules
+SEARCH on python.jam = $(BOOST_BUILD_PATH) ;
+include python.jam ;
+
+# Declare a Python extension called python_datacube
+extension python_datacube
+:  # sources
+   ../lemurcore/python_datacube.cpp
+   ../lemurcore/molasseexception.cpp
+  :  # requirements
+  
+     # link to the appropriate library for the build variant.
+    <release><find-library>boost_python
+    <debug><find-library>boost_python_debug
+    <debug-python><find-library>boost_python_pydebug
+  
+  # library path required for linking to boost_python shared lib. You
+  # may need to edit this for your installation
+    <library-path>$(BOOST_BUILD_PATH)/../../libs/python/build/bin-stage
+  ;

@@ -1,0 +1,4 @@
+This directory contains an implementation of the Ola algorithm
+for fast computation of local moments in 1D buffers
+
+Daniel Lemire, December 16th 2003

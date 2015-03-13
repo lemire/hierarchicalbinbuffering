@@ -1,0 +1,79 @@
+ Benchmarking tool for the Ola algorithm 
+ Build: Feb 11 2004 10:48:34
+ Benchmarks can take a long time to compute 
+ Values are always given as pairs init time + total operation time 
+ size = 4097 b=8,beta=4 b=64,beta=2 b=64,beta=2
+ size = 262145 b=8,beta=6 b=64,beta=3 b=512,beta=2
+ size = 16777217 b=8,beta=8 b=64,beta=4 b=4096,beta=2
+
+ Updates for Ola  N = 1
+ x/size=x^2+1 / updates 8 / upt 64,  sampling = 20000
+64,4097 , 0,0.32 , 0.01,0.08
+512,262145 , 0.35,1.2 , 0.34,0.19
+4096,1.67772e+07 , 22.5,4.34 , 21.62,0.42
+ Multi-Scale Ola size = 20 N = 1
+ x/size=x^2+1 / frs8/frs64/ffm8/ffm64  
+64,4097 , 0,0 , 0.01,0.01 , 0,0 , 0.01,0
+512,262145 , 0.35,0 , 0.35,0.01 , 0.35,0 , 0.34,0
+4096,1.67772e+07 , 22.88,0 , 22.07,0.01 , 22.86,0 , 22.08,0
+ Single Scale Ola size = 20 N = 1
+ x / size=x^2+1 / frs / ffm 
+64,4097 , 0,0.01 , 0,0
+512,262145 , 0.35,0.05 , 0.34,0
+4096,1.67772e+07 , 21.97,0.41 , 21.96,0
+ Slow computations = 20 N = 1
+ x / size=x^2+1 / frs / sfm 
+64,4097 , 0,0 , 0,0.01
+512,262145 , 0,0 , 0,0.27
+4096,1.67772e+07 , 0,0.19 , 0,17.08
+ Done. 
+ size = 4097 b=8,beta=3 b=64,beta=1 b=64,beta=1
+ size = 262145 b=8,beta=5 b=64,beta=2 b=512,beta=1
+ size = 16777217 b=8,beta=7 b=64,beta=3 b=4096,beta=1
+
+ Updates for Ola  N = 2
+ x/size=x^2+1 / updates 8 / upt 64,  sampling = 20000
+64,4097 , 0.01,0.92 , 0.01,0.05
+512,262145 , 0.59,12.27 , 0.59,0.25
+4096,1.67772e+07 , 37.85,163.65 , 37.58,1.06
+ Multi-Scale Ola size = 20 N = 2
+ x/size=x^2+1 / frs8/frs64/ffm8/ffm64  
+64,4097 , 0.01,0 , 0.01,0.02 , 0.01,0 , 0.01,0
+512,262145 , 0.59,0.01 , 0.6,0.03 , 0.59,0 , 0.59,0
+4096,1.67772e+07 , 37.9,0.01 , 37.63,0.05 , 37.93,0 , 37.6,0
+ Single Scale Ola size = 20 N = 2
+ x / size=x^2+1 / frs / ffm 
+64,4097 , 0.01,0.01 , 0.01,0
+512,262145 , 0.59,0.12 , 0.59,0
+4096,1.67772e+07 , 37.66,1.01 , 37.62,0
+ Slow computations = 20 N = 2
+ x / size=x^2+1 / frs / sfm 
+64,4097 , 0,0 , 0,0.01
+512,262145 , 0,0 , 0,0.27
+4096,1.67772e+07 , 0,0.19 , 0,17.07
+ Done. 
+ size = 4097 b=8,beta=3 b=64,beta=1 b=64,beta=1
+ size = 262145 b=8,beta=5 b=64,beta=2 b=512,beta=1
+ size = 16777217 b=8,beta=7 b=64,beta=3 b=4096,beta=1
+
+ Updates for Ola  N = 3
+ x/size=x^2+1 / updates 8 / upt 64,  sampling = 20000
+64,4097 , 0.01,3.52 , 0.01,0.08
+512,262145 , 0.82,102.39 , 0.83,0.53
+4096,1.67772e+07 , 53.11,-1301.14 , 54.18,3.28
+ Multi-Scale Ola size = 20 N = 3
+ x/size=x^2+1 / frs8/frs64/ffm8/ffm64  
+64,4097 , 0.01,0.01 , 0.02,0.03 , 0.01,0 , 0.01,0
+512,262145 , 0.83,0.02 , 0.84,0.06 , 0.83,0 , 0.84,0
+4096,1.67772e+07 , 53.35,0.02 , 53.56,0.09 , 53.32,0 , 53.6,0
+ Single Scale Ola size = 20 N = 3
+ x / size=x^2+1 / frs / ffm 
+64,4097 , 0.01,0.03 , 0.01,0
+512,262145 , 0.83,0.25 , 0.84,0
+4096,1.67772e+07 , 53.8,1.99 , 53.78,0
+ Slow computations = 20 N = 3
+ x / size=x^2+1 / frs / sfm 
+64,4097 , 0,0 , 0,0.01
+512,262145 , 0,0 , 0,0.27
+4096,1.67772e+07 , 0,0.19 , 0,17.47
+ Done. 

@@ -1,0 +1,15 @@
+ Benchmarking tool for the Ola algorithm 
+ Build: Jul  8 2004 16:30:50
+ Times are user; ensure no significant system times
+ Benchmarks can take a long time to compute 
+ Values are always given as pairs init time + total operation time 
+Starting benchmarking from hellifax 
+Testing obvious no-precomputation algorithm, full data
+time for  100 naive rangesums
+data size is 1073741825
+ == Slow Range Sums === virtual array of size 1073741825
+ [srs] Computations took 0.008894 NOTE: units are megaseconds!!
+ For 100 range sums 
+ average was -0.0737617    
+0,0.008894
+Done with benchmarking from hellifax.

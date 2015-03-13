@@ -1,0 +1,18 @@
+
+TAKEN SINGLE USER EXTERNAL ARRAY on KASER
+
+ Benchmarking tool for the Ola algorithm 
+ Build: Jul  7 2004 08:18:54
+ Times are WALL CLOCK
+ Benchmarks can take a long time to compute 
+ Values are always given as pairs init time + total operation time 
+Starting benchmarking from hellifax 
+Testing obvious no-precomputation algorithm, smaller data
+update time for  20 naive rangesums
+data size is 268435457
+ == Slow Range Sums === virtual array of size 268435457
+ [srs] Computations took 0.000159
+ For 20 range sums 
+ average was -0.245651
+0,0.000159
+Done with benchmarking from hellifax.

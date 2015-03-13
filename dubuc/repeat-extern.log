@@ -1,0 +1,593 @@
+ Benchmarking tool for the Ola algorithm 
+ Build: Jul  8 2004 22:49:37
+ Times are WALL CLOCK
+ Benchmarks can take a long time to compute 
+ Values are always given as pairs init time + total operation time 
+Starting benchmarking from hellifax 
+Testing multilevel Ola on external array b=128
+Trying various b a few times
+ size = 268435457 b=32,beta=5
+ external array is : 1 GB
+ bin arrays are : 0.125 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 32
+ b = 32 N = 2
+ data.size() = 268435457
+ It took 466.573 s to build a buffer of size 8388609
+ [frs] Computations took 28.9555
+ For 2000 range sums 
+ average was -0.0376478
+466.573,28.9555
+ size = 268435457 b=128,beta=3
+ external array is : 1 GB
+ bin arrays are : 0.5 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 128
+ b = 128 N = 2
+ data.size() = 268435457
+ It took 485.847 s to build a buffer of size 2097153
+ [frs] Computations took 38.5892
+ For 2000 range sums 
+ average was -0.0376223
+485.847,38.5892
+ size = 268435457 b=1024,beta=2
+ external array is : 1 GB
+ bin arrays are : 4 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 1024
+ b = 1024 N = 2
+ data.size() = 268435457
+ It took 467.229 s to build a buffer of size 262145
+ [frs] Computations took 87.5558
+ For 2000 range sums 
+ average was -0.0375309
+467.229,87.5558
+ size = 268435457 b=32768,beta=1
+ external array is : 1 GB
+ bin arrays are : 128 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 32768
+ b = 32768 N = 2
+ data.size() = 268435457
+ It took 465.806 s to build a buffer of size 8193
+ [frs] Computations took 761.499
+ For 1525 range sums 
+ average was -0.0318184
+465.806,761.499
+ size = 268435457 b=1048576,beta=1
+ external array is : 1 GB
+ bin arrays are : 4096 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 1048576
+ b = 1048576 N = 2
+ data.size() = 268435457
+ It took 467.749 s to build a buffer of size 257
+ [frs] Computations took 727.624
+ For 47 range sums 
+ average was -0.0837608
+467.749,727.624
+ size = 268435457 b=32,beta=5
+ external array is : 1 GB
+ bin arrays are : 0.125 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 32
+ b = 32 N = 2
+ data.size() = 268435457
+ It took 469.359 s to build a buffer of size 8388609
+ [frs] Computations took 28.8428
+ For 2000 range sums 
+ average was -0.0376478
+469.359,28.8428
+ size = 268435457 b=128,beta=3
+ external array is : 1 GB
+ bin arrays are : 0.5 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 128
+ b = 128 N = 2
+  data.size() = 268435457
+ It took 486.591 s to build a buffer of size 2097153
+ [frs] Computations took 38.2352
+ For 2000 range sums 
+ average was -0.0376223
+486.591,38.2352
+ size = 268435457 b=1024,beta=2
+ external array is : 1 GB
+ bin arrays are : 4 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 1024
+ b = 1024 N = 2
+ data.size() = 268435457
+ It took 467.534 s to build a buffer of size 262145
+ [frs] Computations took 87.5016
+ For 2000 range sums 
+ average was -0.0375309
+467.534,87.5016
+ size = 268435457 b=32768,beta=1
+ external array is : 1 GB
+ bin arrays are : 128 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 32768
+ b = 32768 N = 2
+ data.size() = 268435457
+ It took 467.725 s to build a buffer of size 8193
+ [frs] Computations took 763.146
+ For 1525 range sums 
+ average was -0.0318184
+467.725,763.146
+ size = 268435457 b=1048576,beta=1
+ external array is : 1 GB
+ bin arrays are : 4096 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 1048576
+ b = 1048576 N = 2
+ data.size() = 268435457
+ It took 467.822 s to build a buffer of size 257
+ [frs] Computations took 724.281
+ For 47 range sums 
+ average was -0.0837608
+467.822,724.281
+ size = 268435457 b=32,beta=5
+ external array is : 1 GB
+ bin arrays are : 0.125 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 32
+ b = 32 N = 2
+ data.size() = 268435457
+ It took 469.701 s to build a buffer of size 8388609
+ [frs] Computations took 29.4514
+ For 2000 range sums 
+ average was -0.0376478
+469.701,29.4514
+ size = 268435457 b=128,beta=3
+ external array is : 1 GB
+ bin arrays are : 0.5 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 128
+ b = 128 N = 2
+ data.size() = 268435457
+ It took 487.592 s to build a buffer of size 2097153
+ [frs] Computations took 37.0943
+ For 2000 range sums 
+ average was -0.0376223
+487.592,37.0943
+ size = 268435457 b=1024,beta=2
+ external array is : 1 GB
+ bin arrays are : 4 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 1024
+ b = 1024 N = 2
+ data.size() = 268435457
+ It took 466.828 s to build a buffer of size 262145
+ [frs] Computations took 86.9109
+ For 2000 range sums 
+ average was -0.0375309
+466.828,86.9109
+ size = 268435457 b=32768,beta=1
+ external array is : 1 GB
+ bin arrays are : 128 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 32768
+ b = 32768 N = 2
+ data.size() = 268435457
+ It took 466.877 s to build a buffer of size 8193
+ [frs] Computations took 764.103
+ For 1525 range sums 
+ average was -0.0318184
+466.877,764.103
+ size = 268435457 b=1048576,beta=1
+ external array is : 1 GB
+ bin arrays are : 4096 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 1048576
+ b = 1048576 N = 2
+ data.size() = 268435457
+ It took 469.121 s to build a buffer of size 257
+ [frs] Computations took 726.913
+ For 47 range sums 
+ average was -0.0837608
+469.121,726.913
+ size = 268435457 b=32,beta=5
+ external array is : 1 GB
+ bin arrays are : 0.125 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 32
+ b = 32 N = 2
+ data.size() = 268435457
+ It took 471.197 s to build a buffer of size 8388609
+ [frs] Computations took 28.7726
+ For 2000 range sums 
+ average was -0.0376478
+471.197,28.7726
+ size = 268435457 b=128,beta=3
+ external array is : 1 GB
+ bin arrays are : 0.5 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 128
+ b = 128 N = 2
+ data.size() = 268435457
+ It took 485.944 s to build a buffer of size 2097153
+ [frs] Computations took 37.0193
+ For 2000 range sums 
+ average was -0.0376223
+485.944,37.0193
+ size = 268435457 b=1024,beta=2
+ external array is : 1 GB
+ bin arrays are : 4 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 1024
+ b = 1024 N = 2
+ data.size() = 268435457
+ It took 466.971 s to build a buffer of size 262145
+ [frs] Computations took 85.8885
+ For 2000 range sums 
+ average was -0.0375309
+466.971,85.8885
+ size = 268435457 b=32768,beta=1
+ external array is : 1 GB
+ bin arrays are : 128 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 32768
+ b = 32768 N = 2
+ data.size() = 268435457
+ It took 469.101 s to build a buffer of size 8193
+ [frs] Computations took 764.996
+ For 1525 range sums 
+ average was -0.0318184
+469.101,764.996
+ size = 268435457 b=1048576,beta=1
+ external array is : 1 GB
+ bin arrays are : 4096 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 1048576
+ b = 1048576 N = 2
+ data.size() = 268435457
+ It took 467.741 s to build a buffer of size 257
+ [frs] Computations took 727.412
+ For 47 range sums 
+ average was -0.0837608
+467.741,727.412
+ size = 268435457 b=32,beta=5
+ external array is : 1 GB
+ bin arrays are : 0.125 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 32
+ b = 32 N = 2
+ data.size() = 268435457
+ It took 471.456 s to build a buffer of size 8388609
+ [frs] Computations took 29.4735
+ For 2000 range sums 
+ average was -0.0376478
+471.456,29.4735
+ size = 268435457 b=128,beta=3
+ external array is : 1 GB
+ bin arrays are : 0.5 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 128
+ b = 128 N = 2
+ data.size() = 268435457
+ It took 488.032 s to build a buffer of size 2097153
+ [frs] Computations took 38.144
+ For 2000 range sums 
+ average was -0.0376223
+488.032,38.144
+ size = 268435457 b=1024,beta=2
+ external array is : 1 GB
+ bin arrays are : 4 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 1024
+ b = 1024 N = 2
+ data.size() = 268435457
+ It took 469.44 s to build a buffer of size 262145
+ [frs] Computations took 86.9688
+ For 2000 range sums 
+ average was -0.0375309
+469.44,86.9688
+ size = 268435457 b=32768,beta=1
+ external array is : 1 GB
+ bin arrays are : 128 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 32768
+ b = 32768 N = 2
+ data.size() = 268435457
+ It took 468.614 s to build a buffer of size 8193
+ [frs] Computations took 765.519
+ For 1525 range sums 
+ average was -0.0318184
+468.614,765.519
+ size = 268435457 b=1048576,beta=1
+ external array is : 1 GB
+ bin arrays are : 4096 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 1048576
+ b = 1048576 N = 2
+ data.size() = 268435457
+ It took 468.872 s to build a buffer of size 257
+ [frs] Computations took 724.331
+ For 47 range sums 
+ average was -0.0837608
+468.872,724.331
+ size = 268435457 b=32,beta=5
+ external array is : 1 GB
+ bin arrays are : 0.125 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 32
+ b = 32 N = 2
+ data.size() = 268435457
+ It took 470.1 s to build a buffer of size 8388609
+ [frs] Computations took 29.9264
+ For 2000 range sums 
+ average was -0.0376478
+470.1,29.9264
+ size = 268435457 b=128,beta=3
+ external array is : 1 GB
+ bin arrays are : 0.5 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 128
+ b = 128 N = 2
+ data.size() = 268435457
+ It took 486.719 s to build a buffer of size 2097153
+ [frs] Computations took 38.9561
+ For 2000 range sums 
+ average was -0.0376223
+486.719,38.9561
+ size = 268435457 b=1024,beta=2
+ external array is : 1 GB
+ bin arrays are : 4 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 1024
+ b = 1024 N = 2
+ data.size() = 268435457
+ It took 468.444 s to build a buffer of size 262145
+ [frs] Computations took 86.6331
+ For 2000 range sums 
+ average was -0.0375309
+468.444,86.6331
+ size = 268435457 b=32768,beta=1
+ external array is : 1 GB
+ bin arrays are : 128 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 32768
+ b = 32768 N = 2
+ data.size() = 268435457
+ It took 468.663 s to build a buffer of size 8193
+ [frs] Computations took 767.315
+ For 1525 range sums 
+ average was -0.0318184
+468.663,767.315
+ size = 268435457 b=1048576,beta=1
+ external array is : 1 GB
+ bin arrays are : 4096 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 1048576
+ b = 1048576 N = 2
+ data.size() = 268435457
+ It took 468.146 s to build a buffer of size 257
+ [frs] Computations took 726.633
+ For 47 range sums 
+ average was -0.0837608
+468.146,726.633
+ size = 268435457 b=32,beta=5
+ external array is : 1 GB
+ bin arrays are : 0.125 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 32
+ b = 32 N = 2
+ data.size() = 268435457
+ It took 470.317 s to build a buffer of size 8388609
+ [frs] Computations took 28.9107
+ For 2000 range sums 
+ average was -0.0376478
+470.317,28.9107
+ size = 268435457 b=128,beta=3
+ external array is : 1 GB
+ bin arrays are : 0.5 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 128
+ b = 128 N = 2
+ data.size() = 268435457
+ It took 488.304 s to build a buffer of size 2097153
+ [frs] Computations took 37.9739
+ For 2000 range sums 
+ average was -0.0376223
+488.304,37.9739
+ size = 268435457 b=1024,beta=2
+ external array is : 1 GB
+ bin arrays are : 4 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 1024
+ b = 1024 N = 2
+ data.size() = 268435457
+ It took 467.975 s to build a buffer of size 262145
+ [frs] Computations took 85.5618
+ For 2000 range sums 
+ average was -0.0375309
+467.975,85.5618
+ size = 268435457 b=32768,beta=1
+ external array is : 1 GB
+ bin arrays are : 128 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 32768
+ b = 32768 N = 2
+ data.size() = 268435457
+ It took 469.667 s to build a buffer of size 8193
+ [frs] Computations took 767.022
+ For 1525 range sums 
+ average was -0.0318184
+469.667,767.022
+ size = 268435457 b=1048576,beta=1
+ external array is : 1 GB
+ bin arrays are : 4096 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 1048576
+ b = 1048576 N = 2
+ data.size() = 268435457
+ It took 468.069 s to build a buffer of size 257
+ [frs] Computations took 727.051
+ For 47 range sums 
+ average was -0.0837608
+468.069,727.051
+ size = 268435457 b=32,beta=5
+ external array is : 1 GB
+ bin arrays are : 0.125 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 32
+ b = 32 N = 2
+ data.size() = 268435457
+ It took 471.428 s to build a buffer of size 8388609
+ [frs] Computations took 27.6275
+ For 2000 range sums 
+ average was -0.0376478
+471.428,27.6275
+ size = 268435457 b=128,beta=3
+ external array is : 1 GB
+ bin arrays are : 0.5 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 128
+ b = 128 N = 2
+ data.size() = 268435457
+ It took 488.887 s to build a buffer of size 2097153
+ [frs] Computations took 37.0582
+ For 2000 range sums 
+ average was -0.0376223
+488.887,37.0582
+ size = 268435457 b=1024,beta=2
+ external array is : 1 GB
+ bin arrays are : 4 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 1024
+ b = 1024 N = 2
+ data.size() = 268435457
+ It took 469.469 s to build a buffer of size 262145
+ [frs] Computations took 85.4248
+ For 2000 range sums 
+ average was -0.0375309
+469.469,85.4248
+ size = 268435457 b=32768,beta=1
+ external array is : 1 GB
+ bin arrays are : 128 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 32768
+ b = 32768 N = 2
+ data.size() = 268435457
+ It took 470.213 s to build a buffer of size 8193
+ [frs] Computations took 768.394
+ For 1525 range sums 
+ average was -0.0318184
+470.213,768.394
+ size = 268435457 b=1048576,beta=1
+ external array is : 1 GB
+ bin arrays are : 4096 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 1048576
+ b = 1048576 N = 2
+ data.size() = 268435457
+ It took 467.636 s to build a buffer of size 257
+ [frs] Computations took 724.536
+ For 47 range sums 
+ average was -0.0837608
+467.636,724.536
+ size = 268435457 b=32,beta=5
+ external array is : 1 GB
+ bin arrays are : 0.125 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 32
+ b = 32 N = 2
+ data.size() = 268435457
+ It took 469.616 s to build a buffer of size 8388609
+ [frs] Computations took 28.7823
+ For 2000 range sums 
+ average was -0.0376478
+469.616,28.7823
+ size = 268435457 b=128,beta=3
+ external array is : 1 GB
+ bin arrays are : 0.5 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 128
+ b = 128 N = 2
+ data.size() = 268435457
+ It took 488.686 s to build a buffer of size 2097153
+ [frs] Computations took 38.0844
+ For 2000 range sums 
+ average was -0.0376223
+488.686,38.0844
+ size = 268435457 b=1024,beta=2
+ external array is : 1 GB
+ bin arrays are : 4 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 1024
+ b = 1024 N = 2
+ data.size() = 268435457
+ It took 469.247 s to build a buffer of size 262145
+ [frs] Computations took 86.149
+ For 2000 range sums 
+ average was -0.0375309
+469.247,86.149
+ size = 268435457 b=32768,beta=1
+ external array is : 1 GB
+ bin arrays are : 128 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 32768
+ b = 32768 N = 2
+ data.size() = 268435457
+ It took 469.512 s to build a buffer of size 8193
+ [frs] Computations took 767.944
+ For 1525 range sums 
+ average was -0.0318184
+469.512,767.944
+ size = 268435457 b=1048576,beta=1
+ external array is : 1 GB
+ bin arrays are : 4096 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 268435457 N = 2 b = 1048576
+ b = 1048576 N = 2
+ data.size() = 268435457
+ It took 467.613 s to build a buffer of size 257
+ [frs] Computations took 726.757
+ For 47 range sums 
+ average was -0.0837608
+467.613,726.757

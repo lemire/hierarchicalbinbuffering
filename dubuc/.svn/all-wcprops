@@ -1,0 +1,293 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/3/trunk/dubuc
+END
+update_b=128.dat
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/dubuc/update_b=128.dat
+END
+firstmoments_N=2_b=128_fpins.dat
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/trunk/dubuc/firstmoments_N=2_b=128_fpins.dat
+END
+rangesums_N=2_b=32k.dat
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/dubuc/rangesums_N=2_b=32k.dat
+END
+update_N=2.dat
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/dubuc/update_N=2.dat
+END
+july6.log
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/dubuc/july6.log
+END
+july7.log
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/dubuc/july7.log
+END
+july8.log
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/dubuc/july8.log
+END
+transform.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/dubuc/transform.cpp
+END
+july12-papi.log
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/dubuc/july12-papi.log
+END
+rangesums_N=2_b=128.dat
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/dubuc/rangesums_N=2_b=128.dat
+END
+test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/dubuc/test.cpp
+END
+benchout.jul3a.log
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/dubuc/benchout.jul3a.log
+END
+july20-updatefixed.log
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/dubuc/july20-updatefixed.log
+END
+perfplots.gnuplot
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/dubuc/perfplots.gnuplot
+END
+naivesum.log
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/dubuc/naivesum.log
+END
+externalarray.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/dubuc/externalarray.h
+END
+dubuccoefficients.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/5/trunk/dubuc/dubuccoefficients.h
+END
+external_query_N=2.dat
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/dubuc/external_query_N=2.dat
+END
+firstmoments_N=2_b=32k.dat
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/dubuc/firstmoments_N=2_b=32k.dat
+END
+counted_ptr.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/dubuc/counted_ptr.h
+END
+construction_b=32k.dat
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/dubuc/construction_b=32k.dat
+END
+bench-small-array.log
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/dubuc/bench-small-array.log
+END
+log_feb11_2004.txt
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/dubuc/log_feb11_2004.txt
+END
+fp-ins-128.log
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/dubuc/fp-ins-128.log
+END
+log_feb13_2004.txt
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/dubuc/log_feb13_2004.txt
+END
+log6.txt
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/dubuc/log6.txt
+END
+firstmoments_N=2_b=128.dat
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/dubuc/firstmoments_N=2_b=128.dat
+END
+stlutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/dubuc/stlutil.h
+END
+july12-external-kaser.log
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/dubuc/july12-external-kaser.log
+END
+query_b=32k.dat
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/dubuc/query_b=32k.dat
+END
+construction_b=128.dat
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/dubuc/construction_b=128.dat
+END
+olabuffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/dubuc/olabuffer.h
+END
+construction_N=2.dat
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/dubuc/construction_N=2.dat
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/dubuc/README
+END
+log.txt
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/dubuc/log.txt
+END
+rangesums_N=2_b=128_fpins.dat
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2/trunk/dubuc/rangesums_N=2_b=128_fpins.dat
+END
+ola-cpu1.log
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/dubuc/ola-cpu1.log
+END
+ola-cpu2.log
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/dubuc/ola-cpu2.log
+END
+ola-cpu3.log
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/dubuc/ola-cpu3.log
+END
+benchout.jul3.log
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/dubuc/benchout.jul3.log
+END
+repeat-extern.log
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/dubuc/repeat-extern.log
+END
+query_b=128.dat
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/dubuc/query_b=128.dat
+END
+query_N=2.dat
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/dubuc/query_N=2.dat
+END
+updates_N=2_b=128.log
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/dubuc/updates_N=2_b=128.log
+END
+benchmark.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/5/trunk/dubuc/benchmark.cpp
+END
+virtualarray.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/dubuc/virtualarray.h
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/7/trunk/dubuc/makefile
+END
+external_constr_N=2.dat
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/dubuc/external_constr_N=2.dat
+END

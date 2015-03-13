@@ -1,0 +1,113 @@
+ Benchmarking tool for the Ola algorithm 
+ Build: Jul 12 2004 12:10:03
+ Times are user; ensure no significant system times
+ Benchmarks can take a long time to compute 
+ Values are always given as pairs init time + total operation time 
+Starting benchmarking from hellifax 
+testing effects of varying N on small b
+ size = 1073741825 b=32,beta=6
+ external array is : 4 GB
+ bin arrays are : 0.125 KB
+N (aka M and M' in paper) is 1
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 1073741825 N = 1 b = 32
+ b = 32 N = 1
+ data.size() = 1073741825
+ It took 961.22 s to build a buffer of size 33554433
+ [frs] Computations took 2.2
+ For 2000 range sums 
+ average was -0.0369989
+961.22,2.2
+ size = 1073741825 b=32,beta=5
+ external array is : 4 GB
+ bin arrays are : 0.125 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 1073741825 N = 2 b = 32
+ b = 32 N = 2
+ data.size() = 1073741825
+ It took 1474.91 s to build a buffer of size 33554433
+ [frs] Computations took 5.82
+ For 2000 range sums 
+ average was -0.0366127
+1474.91,5.82
+ size = 1073741825 b=32,beta=5
+ external array is : 4 GB
+ bin arrays are : 0.125 KB
+N (aka M and M' in paper) is 4
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 1073741825 N = 4 b = 32
+ b = 32 N = 4
+ data.size() = 1073741825
+ It took 2509.11 s to build a buffer of size 33554433
+ [frs] Computations took 11.42
+ For 2000 range sums 
+ average was -0.0370971
+2509.11,11.42
+ size = 1073741825 b=32,beta=5
+ external array is : 4 GB
+ bin arrays are : 0.125 KB
+N (aka M and M' in paper) is 8
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 1073741825 N = 8 b = 32
+ b = 32 N = 8
+ data.size() = 1073741825
+ It took 4553.94 s to build a buffer of size 33554433
+ [frs] Computations took 43.91
+ For 2000 range sums 
+ average was -0.0365619
+4553.94,43.91
+testing effects of varying N on biggish b
+ size = 1073741825 b=32768,beta=2
+ external array is : 4 GB
+ bin arrays are : 128 KB
+N (aka M and M' in paper) is 1
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 1073741825 N = 1 b = 32768
+ b = 32768 N = 1
+ data.size() = 1073741825
+ It took 959.82 s to build a buffer of size 32769
+ [frs] Computations took 413.33
+ For 2000 range sums 
+ average was -0.0368867
+959.82,413.33
+ size = 1073741825 b=32768,beta=1
+ external array is : 4 GB
+ bin arrays are : 128 KB
+N (aka M and M' in paper) is 2
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 1073741825 N = 2 b = 32768
+ b = 32768 N = 2
+ data.size() = 1073741825
+ It took 1484.16 s to build a buffer of size 32769
+ [frs] Computations took 595.51
+ For 1525 range sums 
+ average was -0.0661622
+1484.16,595.51
+ size = 1073741825 b=32768,beta=1
+ external array is : 4 GB
+ bin arrays are : 128 KB
+N (aka M and M' in paper) is 4
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 1073741825 N = 4 b = 32768
+ b = 32768 N = 4
+ data.size() = 1073741825
+ It took 2538.77 s to build a buffer of size 32769
+ [frs] Computations took 388.73
+ For 381 range sums 
+ average was -0.031616
+2538.77,388.73
+ size = 1073741825 b=32768,beta=1
+ external array is : 4 GB
+ bin arrays are : 128 KB
+N (aka M and M' in paper) is 8
+ query time (sums) / buffer construction 
+ == Fast Range Sums === virtual array of size 1073741825 N = 8 b = 32768
+ b = 32768 N = 8
+ data.size() = 1073741825
+ It took 4770.52 s to build a buffer of size 32769
+ [frs] Computations took 292.66
+ For 95 range sums 
+ average was -0.0571332
+4770.52,292.66
+Done with benchmarking from hellifax.

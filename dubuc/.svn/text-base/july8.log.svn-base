@@ -1,0 +1,207 @@
+ Benchmarking tool for the Ola algorithm 
+ Build: Jul  8 2004 12:49:15
+ Times are user; ensure no significant system times
+ Benchmarks can take a long time to compute 
+ Values are always given as pairs init time + total operation time 
+Starting benchmarking from hellifax 
+Testing incremental updates vs b, N=2
+ size = 1073741825 b=32,beta=5
+ external array is : 4 GB
+ bin arrays are : 0.125 KB
+N (aka M and M' in paper) is 2
+update time for  2000 updates
+ == Updates === virtual array of size 1073741825 N = 2 b = 32
+ It took 5297.08 s to build a buffer of size 33554433
+ beta (number of levels) = 5
+ [update] Computations took 4.24
+ For 2000 range sums 
+update time for  200000 updates
+ == Updates === virtual array of size 1073741825 N = 2 b = 32
+ It took 5297.23 s to build a buffer of size 33554433
+ beta (number of levels) = 5
+ [update] Computations took 423.83
+ For 200000 range sums 
+5297.08,4.24 , 5297.23,423.83
+ size = 1073741825 b=128,beta=4
+ external array is : 4 GB
+ bin arrays are : 0.5 KB
+N (aka M and M' in paper) is 2
+update time for  2000 updates
+ == Updates === virtual array of size 1073741825 N = 2 b = 128
+ It took 5279.73 s to build a buffer of size 8388609
+ beta (number of levels) = 4
+ [update] Computations took 3.07
+ For 2000 range sums 
+update time for  200000 updates
+ == Updates === virtual array of size 1073741825 N = 2 b = 128
+ It took 5278.44 s to build a buffer of size 8388609
+ beta (number of levels) = 4
+ [update] Computations took 113.55
+ For 200000 range sums 
+5279.73,3.07 , 5278.44,113.55
+ size = 1073741825 b=1024,beta=2
+ external array is : 4 GB
+ bin arrays are : 4 KB
+N (aka M and M' in paper) is 2
+update time for  2000 updates
+ == Updates === virtual array of size 1073741825 N = 2 b = 1024
+ It took 5276.97 s to build a buffer of size 1048577
+ beta (number of levels) = 2
+ [update] Computations took 1.57
+ For 2000 range sums 
+update time for  200000 updates
+ == Updates === virtual array of size 1073741825 N = 2 b = 1024
+ It took 5278.1 s to build a buffer of size 1048577
+ beta (number of levels) = 2
+ [update] Computations took 7.6
+ For 200000 range sums 
+5276.97,1.57 , 5278.1,7.6
+ size = 1073741825 b=32768,beta=1
+ external array is : 4 GB
+ bin arrays are : 128 KB
+N (aka M and M' in paper) is 2
+update time for  2000 updates
+ == Updates === virtual array of size 1073741825 N = 2 b = 32768
+ It took 5281.24 s to build a buffer of size 32769
+ beta (number of levels) = 1
+ [update] Computations took 1.61
+ For 2000 range sums 
+update time for  200000 updates
+ == Updates === virtual array of size 1073741825 N = 2 b = 32768
+ It took 5281.82 s to build a buffer of size 32769
+ beta (number of levels) = 1
+ [update] Computations took 1.49
+ For 200000 range sums 
+5281.24,1.61 , 5281.82,1.49
+ size = 1073741825 b=1048576,beta=1
+ external array is : 4 GB
+ bin arrays are : 4096 KB
+N (aka M and M' in paper) is 2
+update time for  2000 updates
+ == Updates === virtual array of size 1073741825 N = 2 b = 1048576
+ It took 5369.07 s to build a buffer of size 1025
+ beta (number of levels) = 1
+ [update] Computations took 1.6
+ For 2000 range sums 
+update time for  200000 updates
+ == Updates === virtual array of size 1073741825 N = 2 b = 1048576
+ It took 5370.11 s to build a buffer of size 1025
+ beta (number of levels) = 1
+ [update] Computations took 2.01
+ For 200000 range sums 
+5369.07,1.6 , 5370.11,2.01
+Testing incremental updates vs N, b=128
+ size = 1073741825 b=128,beta=4
+ external array is : 4 GB
+ bin arrays are : 0.5 KB
+N (aka M and M' in paper) is 1
+update time for  2000 updates
+ == Updates === virtual array of size 1073741825 N = 1 b = 128
+ It took 2983.63 s to build a buffer of size 8388609
+ beta (number of levels) = 4
+ [update] Computations took 1.95
+ For 2000 range sums 
+update time for  200000 updates
+ == Updates === virtual array of size 1073741825 N = 1 b = 128
+ It took 2982.7 s to build a buffer of size 8388609
+ beta (number of levels) = 4
+ [update] Computations took 12.06
+ For 200000 range sums 
+2983.63,1.95 , 2982.7,12.06
+ size = 1073741825 b=128,beta=4
+ external array is : 4 GB
+ bin arrays are : 0.5 KB
+N (aka M and M' in paper) is 2
+update time for  2000 updates
+ == Updates === virtual array of size 1073741825 N = 2 b = 128
+ It took 5278.82 s to build a buffer of size 8388609
+ beta (number of levels) = 4
+ [update] Computations took 1.99
+ For 2000 range sums 
+update time for  200000 updates
+ == Updates === virtual array of size 1073741825 N = 2 b = 128
+ It took 5279.28 s to build a buffer of size 8388609
+ beta (number of levels) = 4
+ [update] Computations took 114.3
+ For 200000 range sums 
+5278.82,1.99 , 5279.28,114.3
+ size = 1073741825 b=128,beta=3
+ external array is : 4 GB
+ bin arrays are : 0.5 KB
+N (aka M and M' in paper) is 4
+update time for  2000 updates
+ == Updates === virtual array of size 1073741825 N = 4 b = 128
+ It took 9907.11 s to build a buffer of size 8388609
+ beta (number of levels) = 3
+ [update] Computations took 2.94
+ For 2000 range sums 
+update time for  200000 updates
+ == Updates === virtual array of size 1073741825 N = 4 b = 128
+ It took 9906.49 s to build a buffer of size 8388609
+ beta (number of levels) = 3
+ [update] Computations took 189.26
+ For 200000 range sums 
+9907.11,2.94 , 9906.49,189.26
+ size = 1073741825 b=128,beta=3
+ external array is : 4 GB
+ bin arrays are : 0.5 KB
+N (aka M and M' in paper) is 8
+update time for  2000 updates
+ == Updates === virtual array of size 1073741825 N = 8 b = 128
+ It took 19089 s to build a buffer of size 8388609
+ beta (number of levels) = 3
+ [update] Computations took 15.79
+ For 2000 range sums 
+update time for  200000 updates
+ == Updates === virtual array of size 1073741825 N = 8 b = 128
+ Benchmarking tool for the Ola algorithm 
+ Build: Jul 10 2004 20:52:52
+ Times are user; ensure no significant system times
+ Benchmarks can take a long time to compute 
+ Values are always given as pairs init time + total operation time 
+Starting benchmarking from hellifax 
+Testing incremental updates vs N, b=128
+ size = 1073741825 b=128,beta=3
+ external array is : 4 GB
+ bin arrays are : 0.5 KB
+N (aka M and M' in paper) is 4
+update time for  2000 updates
+ == Updates === virtual array of size 1073741825 N = 4 b = 128
+ It took 9862.74 s to build a buffer of size 8388609
+ beta (number of levels) = 3
+ [update] Computations took 3.35
+ For 2000 range sums 
+update time for  200000 updates
+ == Updates === virtual array of size 1073741825 N = 4 b = 128
+ It took 9863.78 s to build a buffer of size 8388609
+ beta (number of levels) = 3
+ [update] Computations took 189.93
+ For 200000 range sums 
+9862.74,3.35 , 9863.78,189.93
+Done with benchmarking from hellifax.
+ Benchmarking tool for the Ola algorithm 
+ Build: Jul 11 2004 19:30:24
+ Times are user; ensure no significant system times
+ Benchmarks can take a long time to compute 
+ Values are always given as pairs init time + total operation time 
+Starting benchmarking from hellifax 
+Testing incremental updates vs N, b=128
+ size = 1073741825 b=128,beta=3
+ external array is : 4 GB
+ bin arrays are : 0.5 KB
+N (aka M and M' in paper) is 8
+update time for  2000 updates
+ == Updates === virtual array of size 1073741825 N = 8 b = 128
+ It took 18978.8 s to build a buffer of size 8388609
+ beta (number of levels) = 3
+ [update] Computations took 15.71
+ For 2000 range sums 
+update time for  200000 updates
+ == Updates === virtual array of size 1073741825 N = 8 b = 128
+ It took 18980.9 s to build a buffer of size 8388609
+ beta (number of levels) = 3
+ [update] Computations took 1421.49
+ For 200000 range sums 
+18978.8,15.71 , 18980.9,1421.49
+Done with benchmarking from hellifax.
+
